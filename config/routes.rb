@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#ndex"
-  root "application#hello"
+  root "pages#home"
 end
