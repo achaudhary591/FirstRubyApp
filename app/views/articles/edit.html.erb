@@ -4,7 +4,7 @@
 
 <br>
 
-<div>
-  <%= link_to "Show this article", @article %> |
-  <%= link_to "Back to articles", articles_path %>
+<div style="display:flex">
+  <%= button_to "Show this Article", article_path(@article), method: :get %> &nbsp;
+  <%= button_to "Back To Articles", articles_path, method: :get %>
 </div>
