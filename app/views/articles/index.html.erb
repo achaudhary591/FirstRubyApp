@@ -14,7 +14,7 @@
       <tr>
         <td> <%= article.title %> </td>
         <td> <%= article.description %> </td>
-        <td> <button><%= link_to "Show this article", article %></button> </td>
+        <td><%= button_to "Show this article", article_path(article), method: :get %></td>
         <td>  <%= button_to "Destroy", article_path(article), method: :delete %></td>
       </tr>
     <% end %>
