@@ -45,7 +45,7 @@ class ArticlesController < ApplicationController
       if @article.update(article_params)
         format.html do
           redirect_to article_url(@article),
-                      notice: "Article was successfully updated."
+                      notice: "Article was successfully updated"
         end
         format.json { render :show, status: :ok, location: @article }
       else
