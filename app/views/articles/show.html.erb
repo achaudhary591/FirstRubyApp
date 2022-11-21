@@ -2,9 +2,8 @@
 
 <%= render @article %>
 
-<div>
-  <%= link_to "Edit this article", edit_article_path(@article) %> |
-  <%= link_to "Back to articles", articles_path %>
-
-  <%= button_to "Destroy this article", @article, method: :delete %>
+<div style="display : flex">
+  <%= button_to "Edit Article", edit_article_path(@article), method: :get %> &nbsp;
+  <%= button_to "Destroy Article", @article, method: :delete %> &nbsp;
+  <%= button_to "Back To Articles", articles_path, method: :get %>
 </div>
