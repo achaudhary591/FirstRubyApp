@@ -1,0 +1,20 @@
+{
+  "name": "first_ruby_app",
+  "version": "1.0.0",
+  "description": "Basic Rails file for practise and exploring",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "5.2.2",
+    "jquery": "^3.6.1",
+    "popper.js": "^1.16.1"
+  }
+}

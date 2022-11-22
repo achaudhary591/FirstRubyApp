@@ -19,7 +19,7 @@ gem "importmap-rails"
 
 gem 'webpacker', '~> 5.4', '>= 5.4.3'
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem "turbo-rails"
+gem "turbo-rails", '~> 1.0.0'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
